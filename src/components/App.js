@@ -17,7 +17,7 @@ class App extends React.Component {
         this.setState({ videos: response.data.items})
     }
 
-    //pass onTermSubmit as a callback in the prop
+    //pass onTermSubmit as a callback in the prop so each time form is submitted state is updated and videos rerendered
     //passing state as props to VideoList
     render() {
         return (
